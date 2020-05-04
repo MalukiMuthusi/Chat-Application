@@ -18,9 +18,6 @@ object TCPClient {
             // Write to the socket.
             val outStream = DataOutputStream(socket.getOutputStream())
 
-            // Read from the keyboard.
-//            val br = BufferedReader(InputStreamReader(System.`in`))
-
             var clientMessage = ""
             var serverMessage = ""
 

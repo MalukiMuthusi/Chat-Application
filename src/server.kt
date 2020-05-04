@@ -21,7 +21,6 @@ object TCPServer {
             val inStream = DataInputStream(serverClient.getInputStream())
             val outStream = DataOutputStream(serverClient.getOutputStream())
 
-//            val reader = BufferedReader(InputStreamReader(System.`in`))
             var clientMessage = ""
             var serverMessage: String? = ""
 
